@@ -10,33 +10,31 @@ const AboutMe = () => {
 
       <div className="flex flex-wrap items-center justify-center gap-6">
         <div className="gif-container">
-          <div className="w-24 h-24 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center text-4xl">
-            😎
-          </div>
+          <img
+            src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=100&h=100&fit=crop&auto=format&q=30"
+            alt="Компьютер 90-х"
+            className="w-24 h-24 rounded-full border-2 border-neon-pink pixelated"
+          />
         </div>
 
         <div className="text-center max-w-2xl">
-          <p className="text-xl mb-4" style={{ color: "var(--neon-yellow)" }}>
-            Привет! Меня зовут <span className="rainbow-text">СТУДЕНТ</span>
-          </p>
-          <p className="text-lg mb-4" style={{ color: "var(--neon-green)" }}>
-            🎓 Учусь в университете
-            <br />
-            💻 Изучаю программирование
-            <br />
-            🎵 Люблю музыку и игры
-            <br />
-            🌍 Мечтаю изменить мир!
+          <p className="text-lg mb-4" style={{ color: "var(--neon-yellow)" }}>
+            😊 я поиграл в Progressbar95 и проникся эстетикой сайтов 90-х,
+            поэтому стиль такой, особенно учитывая, что кодить для меня довольно
+            сложно, решил, что раз тётки в 90-х делали свои сайты, то и я смогу
+            😎
           </p>
           <div className="bounce">
-            <span className="text-2xl">⭐ ЛУЧШИЙ СТУДЕНТ 1999 ГОДА ⭐</span>
+            <span className="text-2xl">⭐ НОСТАЛЬГИЯ ПО 90-м ⭐</span>
           </div>
         </div>
 
         <div className="gif-container">
-          <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-green-500 rounded-full flex items-center justify-center text-4xl sparkle">
-            🚀
-          </div>
+          <img
+            src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=100&h=100&fit=crop&auto=format&q=30"
+            alt="Ретро компьютер"
+            className="w-24 h-24 rounded-full border-2 border-neon-green pixelated sparkle"
+          />
         </div>
       </div>
     </section>
