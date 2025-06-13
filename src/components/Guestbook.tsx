@@ -28,7 +28,7 @@ const Guestbook = () => {
   };
 
   return (
-    <section className="guestbook m-4">
+    <section className="guestbook acid-border m-4">
       <h2
         className="text-4xl font-bold text-center mb-6"
         style={{ color: "var(--neon-yellow)" }}
@@ -37,7 +37,7 @@ const Guestbook = () => {
       </h2>
 
       <div
-        className="mb-6 p-4 border-2 border-solid"
+        className="acid-border mb-6 p-4"
         style={{ borderColor: "var(--neon-green)" }}
       >
         <h3
@@ -71,7 +71,7 @@ const Guestbook = () => {
         {entries.map((entry, index) => (
           <div
             key={index}
-            className="p-3 border-2 border-dashed"
+            className="acid-border p-3"
             style={{ borderColor: "var(--neon-blue)" }}
           >
             <div className="flex justify-between items-start">

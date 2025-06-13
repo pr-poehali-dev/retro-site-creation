@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className="neon-border p-6 m-4 bg-black/50">
+    <section className="acid-border p-6 m-4 bg-black/50">
       <h2
         className="text-4xl font-bold text-center mb-6"
         style={{ color: "var(--neon-pink)" }}

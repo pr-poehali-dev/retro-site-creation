@@ -103,6 +103,51 @@
   }
 }
 
+/* Acid Border Animation */
+@keyframes acid-border {
+  0% {
+    border-color: var(--neon-green);
+    box-shadow:
+      0 0 15px var(--neon-green),
+      inset 0 0 15px var(--neon-green);
+  }
+  20% {
+    border-color: var(--neon-pink);
+    box-shadow:
+      0 0 15px var(--neon-pink),
+      inset 0 0 15px var(--neon-pink);
+  }
+  40% {
+    border-color: var(--neon-blue);
+    box-shadow:
+      0 0 15px var(--neon-blue),
+      inset 0 0 15px var(--neon-blue);
+  }
+  60% {
+    border-color: var(--neon-yellow);
+    box-shadow:
+      0 0 15px var(--neon-yellow),
+      inset 0 0 15px var(--neon-yellow);
+  }
+  80% {
+    border-color: var(--hot-pink);
+    box-shadow:
+      0 0 15px var(--hot-pink),
+      inset 0 0 15px var(--hot-pink);
+  }
+  100% {
+    border-color: var(--neon-green);
+    box-shadow:
+      0 0 15px var(--neon-green),
+      inset 0 0 15px var(--neon-green);
+  }
+}
+
+.acid-border {
+  border: 3px solid var(--neon-green);
+  animation: acid-border 2s infinite;
+}
+
 /* 90s Utility Classes */
 .blink {
   animation: blink 1s infinite;
@@ -126,6 +171,7 @@
   box-shadow:
     0 0 10px var(--neon-pink),
     inset 0 0 10px var(--neon-pink);
+  animation: acid-border 2s infinite;
 }
 
 .retro-table {
