@@ -3,7 +3,7 @@ const Header = () => {
     <header className="text-center py-8 relative">
       <div className="scrolling-text absolute top-0 left-0 w-full">
         <span className="text-xl">
-          ✨ Добро пожаловать на мой сайт! ✨ Лучший сайт в интернете! ✨ 1999
+          ✨ Добро пожаловать на мой сайт! ✨ Лучший сайт в интернете! ✨ 2025
           год! ✨
         </span>
       </div>

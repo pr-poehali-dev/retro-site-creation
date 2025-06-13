@@ -11,9 +11,9 @@ const AboutMe = () => {
       <div className="flex flex-wrap items-center justify-center gap-6">
         <div className="gif-container">
           <img
-            src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=100&h=100&fit=crop&auto=format&q=30"
-            alt="Компьютер 90-х"
-            className="w-24 h-24 rounded-full border-2 border-neon-pink pixelated"
+            src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=150&h=100&fit=crop&auto=format&q=60"
+            alt="Котик за компьютером"
+            className="w-32 h-20 border-2 border-neon-pink pixelated"
           />
         </div>
 
@@ -31,9 +31,9 @@ const AboutMe = () => {
 
         <div className="gif-container">
           <img
-            src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=100&h=100&fit=crop&auto=format&q=30"
-            alt="Ретро компьютер"
-            className="w-24 h-24 rounded-full border-2 border-neon-green pixelated sparkle"
+            src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=150&h=100&fit=crop&auto=format&q=60"
+            alt="Ретро котик"
+            className="w-32 h-20 border-2 border-neon-green pixelated sparkle"
           />
         </div>
       </div>

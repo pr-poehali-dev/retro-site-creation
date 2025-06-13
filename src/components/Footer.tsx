@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="neon-border p-4 bg-black/70 mx-4">
         <div className="mb-4">
           <span className="rainbow-text text-xl font-bold">
-            *** ЛУЧШИЙ САЙТ 1999 ГОДА ***
+            *** ЛУЧШИЙ САЙТ 2025 ГОДА ***
           </span>
         </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
           style={{ borderColor: "var(--neon-blue)" }}
         >
           <div className="blink text-lg">
-            © 1999 МОЙ СУПЕР САЙТ - ВСЕ ПРАВА ЗАЩИЩЕНЫ
+            © 2025 МОЙ СУПЕР САЙТ - ВСЕ ПРАВА ЗАЩИЩЕНЫ
           </div>
           <div className="mt-2 text-sm" style={{ color: "var(--neon-yellow)" }}>
             Лучше всего смотрится в Netscape Navigator 📼
