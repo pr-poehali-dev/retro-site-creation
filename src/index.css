@@ -21,9 +21,11 @@
 @layer base {
   body {
     font-family: "Comic Neue", "Comic Sans MS", cursive;
-    background: linear-gradient(45deg, #000080, #800080, #008080);
-    background-size: 400% 400%;
-    animation: gradientShift 10s ease infinite;
+    background: url("https://cdn.poehali.dev/files/413d2592-c651-444a-a02c-89f406a2075e.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: var(--neon-green);
     overflow-x: hidden;
   }
