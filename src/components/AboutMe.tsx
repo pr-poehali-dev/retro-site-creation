@@ -24,9 +24,6 @@ const AboutMe = () => {
             сложно, решил, что раз тётки в 90-х делали свои сайты, то и я смогу
             😎
           </p>
-          <div className="bounce">
-            <span className="text-2xl">⭐ НОСТАЛЬГИЯ ПО 90-м ⭐</span>
-          </div>
         </div>
 
         <div className="gif-container">

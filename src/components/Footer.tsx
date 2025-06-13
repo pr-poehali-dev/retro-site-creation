@@ -17,9 +17,37 @@ const Footer = () => {
               КРУТЫЕ ССЫЛКИ:
             </h4>
             <div className="space-y-1">
-              <div className="sparkle">🌟 Мой Email</div>
-              <div className="sparkle">🎵 Любимая музыка</div>
-              <div className="sparkle">🎮 Игры</div>
+              <div className="sparkle">
+                <a
+                  href="mailto:chfrchko03@gmail.com"
+                  className="text-neon-yellow hover:text-neon-pink transition-colors"
+                  style={{ color: "var(--neon-yellow)" }}
+                >
+                  🌟 Мой Email
+                </a>
+              </div>
+              <div className="sparkle">
+                <a
+                  href="https://music.yandex.ru/users/E.goryas/playlists/3?utm_source=web&utm_medium=copy_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neon-yellow hover:text-neon-pink transition-colors"
+                  style={{ color: "var(--neon-yellow)" }}
+                >
+                  🎵 Любимая музыка
+                </a>
+              </div>
+              <div className="sparkle">
+                <a
+                  href="https://steamcommunity.com/id/E_goryas/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neon-yellow hover:text-neon-pink transition-colors"
+                  style={{ color: "var(--neon-yellow)" }}
+                >
+                  🎮 Игры
+                </a>
+              </div>
             </div>
           </div>
 
